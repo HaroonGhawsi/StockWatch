@@ -1,22 +1,22 @@
 $(document).ready(function(){
 	setTimeout(popup, 3000);
 	function popup(){
-		$("#ask").css("display", "block");
+		$("#ask").fadeIn();
 	}
 	$("#sgnN").click(function(){
-		$("#logindiv").css("display", "block");
+		$("#logindiv").fadeIn();
 	});
 	$("#sgnUP").click(function(){
-		$("#register").css("display", "block");
+		$("#register").fadeIn();
 	});
 	$("#rcancel").click(function(){
-		$(this).parent().parent().hide();
+		$(this).parent().parent().fadeOut();
 	});
-	$("#guest").click(function(){
-		$(this).parent().parent().hide();
+	$("#close").click(function(){
+		$(this).parent().fadeOut();
 	});
 	$("#cancel").click(function(){
-		$(this).parent().parent().hide();
+		$(this).parent().parent().fadeOut();
 	});
 });
 	
