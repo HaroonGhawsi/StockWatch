@@ -6,15 +6,30 @@ body{
 	padding-right: 45%;
 	background-color: white;
 }
-@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+#heading1{
+	font-family: serif;
+}
+
 h3{
 font-size:18px;
 text-align:center;
-text-shadow:1px 0px 3px gray;
+padding: 5%;
+}
+h2{
+font-size:18px;
+text-align:center;
+
 }
 
 #popup{
 padding-top:80px;
+}
+
+#login, #ask1, #registration{
+left: 40%;
+top: 30%;
+margin-left:-210px;
+margin-top:-158px;
 }
 .form{
 border-radius:10px;
@@ -35,7 +50,7 @@ border-radius:3px;
 padding:5px;
 }
 input[type=button]{
-
+background-color: #5e5e5e;
 border-radius: 5px;
 border:1px solid white;
 font-family: serif;
@@ -44,14 +59,8 @@ font-size:18px;
 color:white;
 width:49%;
 }
-#loginbtn{
-	background-color:#5e5e5e;
-}
-#cancel{
-	background-color:#5e5e5e;
-}
-#logindiv{
 
+#logindiv, #ask, #register{
 position: absolute;
 top: 0px;
 left: 0px;
@@ -60,18 +69,14 @@ width: 100%;
 display: none;
 }
 
-#login{
+#login, #ask1, #registration{
 width:350px;
 margin:0px;
 background-color:white;
 font-family: 'Fauna One', serif;
 position: relative;
 }
-
-#login{
-left: 50%;
-top: 50%;
-margin-left:-210px;
-margin-top:-158px;
+#sgnN, #sgnUP{
+	margin-top: 20px;
 }
 
