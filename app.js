@@ -18,5 +18,28 @@ $(document).ready(function(){
 	$("#cancel").click(function(){
 		$(this).parent().parent().fadeOut();
 	});
+	$("#submit").click(function(){
+				
+		
+		var fname = $("#fname").val();
+		var lname = $("#lname").val();
+		var pwd = $("#pwd").val();
+		var rpwd = $("#rpwd").val();
+		var eml = $("#eml").val();
+		
+		if(fname == "" || lname == "" || pwd == "" || rpwd == "" || eml == ""){
+			$("#errmsg").append("Empty Error!");
+		}
+		else{
+			$("#errmsg").append("Success!");
+		}
+		
+	});
 });
+
+	
+	
+	
+	
+	
 	

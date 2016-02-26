@@ -4,9 +4,10 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
 	
 	<script src="app.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -55,15 +56,16 @@
 		</div>
 		
 		<div id="register">
-			<form class="form" action="#" id="registration">
+			<form class="form" action="#" id="registration"" method="post">
 				<h3>Registration Form</h3>
-				<hr/><br/>
+				<hr/>
+					<div id="errmsg"></div>
 					<label>First Name : <span>*</span></label>
 					<br/>
 					<input type="text" id="fname" placeholder="First Name"/><br/>
-					<label>Last Name : <span>*</span></label>
+					<label name="lname">Last Name : <span>*</span></label>
 					<br/>
-					<input type="text" id="lname" placeholder="Last Name"/><br/>
+					<input type="text" id="lname" name="lname" placeholder="Last Name"/><br/>
 					<label>Password : <span>*</span></label>
 					<br/>
 					<input type="password" id="pwd" placeholder="********"/><br/>
@@ -78,8 +80,6 @@
 			</form>
 		</div>
 		
-		
-
-
+		<div id="results"></div>
 	</body>
 </html>

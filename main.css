@@ -9,6 +9,9 @@ body{
 #heading1{
 	font-family: serif;
 }
+hr{
+	border-top: 1px solid #4d4d4d;
+}
 
 h1{
 color:#fff;
@@ -53,29 +56,28 @@ border-radius:3px;
 padding:5px;
 }
 #loginbtn, #submit, #sgnUP{
-background-color: #009933;
+background-color: white;
 border-radius: 5px;
-
-font-family: serif;
 font-size:18px;
-color:white;
+color:blue;
 width:49%;
+
 box-shadow: 5px 5px 5px #888888;
 }
 
 #rcancel, #cancel, #sgnN{
-background-color: #00b8e6;
+background-color: white;
 border-radius: 5px;
-
-font-family: serif;
 font-Weight:bold;
 font-size:18px;
-color:white;
+color:blue;
 width:49%;
 box-shadow: 5px 5px 5px #888888;
 }
 #close{
 	background-color: white;
+	font-size: 18px;
+	font-Weight: bold;
 	width: 83%;
 	color: Red;
 	position: absolute;
@@ -95,7 +97,7 @@ display: none;
 #login, #ask1, #registration{
 width:350px;
 margin:0px;
-background-color:white;
+background-color:	#e6e6e6;
 font-family: 'Fauna One', serif;
 position: relative;
 }
@@ -103,3 +105,6 @@ position: relative;
 	margin-top: 20px;
 }
 
+#errmsg{
+	color: red;
+}
