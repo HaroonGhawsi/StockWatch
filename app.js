@@ -18,8 +18,11 @@ $(document).ready(function(){
 	$("#cancel").click(function(){
 		$(this).parent().parent().fadeOut();
 	});
-	$("#submit").click(function(){
-				
+	$("#results").hide();
+	
+});	
+$(document).ready(function(){
+	$("#submit").click(function(){	
 		
 		var fname = $("#fname").val();
 		var lname = $("#lname").val();
@@ -27,15 +30,33 @@ $(document).ready(function(){
 		var rpwd = $("#rpwd").val();
 		var eml = $("#eml").val();
 		
+				
 		if(fname == "" || lname == "" || pwd == "" || rpwd == "" || eml == ""){
+			
+			$("#registration").hide();
+			$("#ask1").hide();
+			$("#results").fadeIn();
 			$("#errmsg").append("Empty Error!");
+			
+			$("#ok").click(function(){
+				$("#results").fadeOut();
+				$("#registration").fadeIn();
+			});
+			
 		}
 		else{
+			$("#registration").hide();
+			$("#ask1").hide();
+			$("#results").fadeIn();
 			$("#errmsg").append("Success!");
+			$("#ok").click(function(){
+				$("#results").hide();
+			});
 		}
 		
 	});
 });
+
 
 	
 	
