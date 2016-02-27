@@ -1,20 +1,23 @@
 body{
 	width: 100%;
+	background: #e6e6e6;
 }
 .navbar{
-	padding-left: 45%;
-	padding-right: 45%;
-	background-color: white;
+	padding-left: 75%;
+	
 }
+
 #heading1{
 	font-family: serif;
+	float: left;
+	
 }
 hr{
 	border-top: 1px solid #4d4d4d;
 }
 
 h1{
-color:#fff;
+color:black;
 text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 text-align: center;
 }
@@ -31,9 +34,9 @@ font-size:18px;
 text-align:center;
 }
 
-#login, #ask1, #registration, #form{
-left: 40%;
-top: 20%;
+.form{
+left: 73%;
+top: 10%;
 margin-left:-210px;
 margin-top:-158px;
 }
@@ -42,7 +45,6 @@ border-radius:10px;
 padding:20px 30px;
 box-shadow:0 0 15px;
 font-size:14px;
-font-weight:bold;
 width:350px;
 margin:20px 250px 0 35px;
 float:left;
@@ -55,37 +57,8 @@ border:1px solid gray;
 border-radius:3px;
 padding:5px;
 }
-#loginbtn, #submit, #sgnUP{
-background-color: white;
-border-radius: 5px;
-font-size:18px;
-color:blue;
-width:49%;
 
-box-shadow: 5px 5px 5px #888888;
-}
-
-#rcancel, #cancel, #sgnN{
-background-color: white;
-border-radius: 5px;
-font-Weight:bold;
-font-size:18px;
-color:blue;
-width:49%;
-box-shadow: 5px 5px 5px #888888;
-}
-#close{
-	background-color: white;
-	font-size: 18px;
-	font-Weight: bold;
-	width: 83%;
-	color: Red;
-	position: absolute;
-	top: 80px;
-	box-shadow: 5px 5px 5px #888888
-}
-
-#logindiv, #ask, #register{
+#logindiv, #register{
 position: absolute;
 top: 0px;
 left: 0px;
@@ -94,15 +67,13 @@ width: 100%;
 display: none;
 }
 
-#login, #ask1, #registration, #form{
+.form{
 width:350px;
 margin:0px;
 background-color:	#e6e6e6;
-font-family: 'Fauna One', serif;
+font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 position: relative;
-}
-#sgnN, #sgnUP{
-	margin-top: 20px;
+
 }
 
 #errmsg{
