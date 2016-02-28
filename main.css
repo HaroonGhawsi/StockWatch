@@ -1,15 +1,19 @@
 body{
 	width: 100%;
-	background: #e6e6e6;
+	background: #f3e5d8;
 }
 .navbar{
-	padding-left: 75%;
-	
+	padding-left: 80%;
+}
+.navbar-default{
+	background-color: #663300;
 }
 
 #heading1{
 	font-family: serif;
 	float: left;
+	color: white;
+	margin-right: auto;
 	
 }
 hr{
@@ -17,9 +21,11 @@ hr{
 }
 
 h1{
-color:black;
+color: #994f00;
 text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 text-align: center;
+font-size: 4em;
+font-weight: bold;
 }
 
 h3{
@@ -70,7 +76,7 @@ display: none;
 .form{
 width:350px;
 margin:0px;
-background-color:	#e6e6e6;
+background-color:	#fef8e7;
 font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 position: relative;
 

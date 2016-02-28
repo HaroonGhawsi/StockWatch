@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
 });	
 $(document).ready(function(){
-	$(".submit").click(function(){	
+	$(".submit1").click(function(){	
 		
 		var fname = $("#fname").val();
 		var lname = $("#lname").val();
@@ -47,8 +47,13 @@ $(document).ready(function(){
 				$("#results").hide();
 			});
 		}
-		
 	});
+		$("#registration").submit(function (event){
+		alert("Handler for .submit() called.");
+		event.preventDefault();
+	});
+	
+	
 });
 
 
